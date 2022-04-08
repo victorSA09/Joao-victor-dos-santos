@@ -5,14 +5,6 @@ body{
 	font-size: 100%;
 }
 
-/*
-Todo 'a' vem por default sublinhado, para mudar isso deve-se usar as seguintes propriedades:
-text-decoration: none ==> retira o sublinhado;
-text-decoration: underline ==> coloca um sublinhado;
-text-decoration: overline ==> coloca um sobrelinhado;
-text-decoration: underline overline ==> coloca sobre e sublinhado juntos;
-text-decoration: line-through ==> coloca uma linha em cima do texto.
-*/
 a{
 	text-decoration: none;
 	font-size: 16px;
@@ -22,14 +14,6 @@ a{
 a:hover{
 	text-decoration:underline;
 }
-
-/*
-Como estilizar o comportamento do mouse
-a:link estiliza o estado UP (corresponde a situação inicial do link, isto é, o aspecto do link quando a página é carregada no browser do usuário);
-a:visited estiliza o estado VISITED (é o aspecto que o link assume quando o usuário passa o ponteiro do mouse sobre o link);
-a:hover estiliza o estado OVER (é o aspecto do link depois que foi visitado pelo usuário);
-a:active estiliza o estado link ativo (é o aspecto do link ativo, isto é, aquele que foi clicado pelo usuário.);
-*/
 
 .container{
 	max-width: 1128px;
@@ -98,13 +82,6 @@ h1{
 	font-size: 18px;
 	color: #FFF;
 }
-
-/* 
-O Position não serve para diagramar a estrutura de layouts. Para isso, você utiliza a propriedade float do css. O Position vai servir para fazer coisas mais simples.
-#fixed irá fixar a posição do elemento na coordenada que você definir
-#relative posiciona o elemento em relação a si mesmo.
-#absolute se utiliza do ponto superior esquerdo de outros elementos. Estes elementos são os parentes dele do elemento com position absolute. Mais especificamente o pai.
-*/
 
 article{
 	width: 264px;
